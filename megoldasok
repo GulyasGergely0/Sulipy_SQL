@@ -1,0 +1,20 @@
+ADATBÁZIS: https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
+2.: AND / OR / NOT és ORDER BY
+1. Feladat
+
+a: SELECT SupplierName FROM suppliers WHERE Country = "UK" OR Country = "USA";
+
+b: SELECT SupplierName FROM suppliers WHERE Country = "USA" AND (city = "New Orleans" OR city = "Boston");
+
+c: SELECT SupplierName FROM suppliers WHERE NOT country = "Japan" OR country = "Canada";
+
+
+2. Feladat
+
+a: SELECT ProductName, Price FROM Products ORDER BY Price ASC, ProductName;
+
+b:SELECT ProductName, Price FROM Products ORDER BY Price DESC, ProductName;
+
+c:SELECT ProductName, Unit FROM Products ORDER BY ProductName ASC, Unit DESC;
+--Azért van 2 order by, mivel ha van két ProductName ami ugyan az, akkor az a kettő között lesz csökkenő a Unit.
+
