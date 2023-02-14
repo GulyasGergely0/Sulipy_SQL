@@ -18,3 +18,12 @@ b:SELECT ProductName, Price FROM Products ORDER BY Price DESC, ProductName;
 c:SELECT ProductName, Unit FROM Products ORDER BY ProductName ASC, Unit DESC;
 --Azért van 2 order by, mivel ha van két ProductName ami ugyan az, akkor az a kettő között lesz csökkenő a Unit.
 
+3.: INSERT ... INTO és a NULL érték
+ 1. Feladat 
+ 
+ a: INSERT INTO categories (CategoryName, Description) VALUES ("Spices", "Salt, Pepper, Oregano");
+ 
+ b: INSERT INTO categories (CategoryName) VALUES ("Spices");
+ 
+ c:SELECT CategoryName, Description FROM Categories WHERE Description IS NULL;
+ 
