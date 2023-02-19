@@ -18,7 +18,7 @@ b:SELECT ProductName, Price FROM Products ORDER BY Price DESC, ProductName;
 c:SELECT ProductName, Unit FROM Products ORDER BY ProductName ASC, Unit DESC;
 --Azért van 2 order by, mivel ha van két ProductName ami ugyan az, akkor az a kettő között lesz csökkenő a Unit.
 
-3.: INSERT ... INTO és a NULL érték
+INSERT ... INTO és a NULL érték
  1. Feladat 
  
  a: INSERT INTO categories (CategoryName, Description) VALUES ("Spices", "Salt, Pepper, Oregano");
@@ -27,3 +27,8 @@ c:SELECT ProductName, Unit FROM Products ORDER BY ProductName ASC, Unit DESC;
  
  c:SELECT CategoryName, Description FROM Categories WHERE Description IS NULL;
  
+UPDATE és DELETE - NINCS FELADAT, SAJÁT
+
+UPDATE customers SET CustomerName = "segg" WHERE Address = "Obere Str. 57"; --A WHERE UTASÍTÁS MUSZÁLY!!! E-nélkül az oszlopban az összes sor adatát megváltoztatjuk!!!
+
+DELETE FROM customers WHERE Address = "Obere Str. 57"; -- Ez az egész sort kitörli ahol az Address "Obere Str. 57". Az ID így nem lesz pontos.
