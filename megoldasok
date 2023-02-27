@@ -32,3 +32,49 @@ UPDATE és DELETE - NINCS FELADAT, SAJÁT
 UPDATE customers SET CustomerName = "segg" WHERE Address = "Obere Str. 57"; --A WHERE UTASÍTÁS MUSZÁLY!!! E-nélkül az oszlopban az összes sor adatát megváltoztatjuk!!!
 
 DELETE FROM customers WHERE Address = "Obere Str. 57"; -- Ez az egész sort kitörli ahol az Address "Obere Str. 57". Az ID így nem lesz pontos.
+
+
+4. Fejezet: SQL Nyelvről bővebben
+
+DB ELÉRÉS KONZOLRÓL
+
+
+
+
+CREATE, DROP, ALTER
+1:
+
+
+SQL függvények
+1: Feladat
+
+a;
+
+b;
+
+c;
+
+
+2: Feladat
+
+a;
+
+b;
+
+c;
+
+3. Feladat
+
+a;
+
+b;
+
+c;
+
+4. Feladat
+
+a;
+
+b;
+
+c;
